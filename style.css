@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    width:100%;
+    height:100vh;
+    background-color:#001219 ;
+    color:#e9d8a6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    font-size: large;
+    list-style:circle;
+}
+
+h1{
+    color:#ee9b00;
+    margin-bottom:1rem;
+}
+.container{
+  text-align: center;
+}
+li{
+    text-align:start
+}
+input{
+    padding:.5rem 1rem;
+    border:2px solid #ee9b00;
+    margin-bottom:1rem;
+    font-size: large;
+}
+input[type=submit]{
+    background-color: #ee9b00;
+    color:#e9d8a6;
+    transition: 100ms;
+}
+input[type=submit]:hover,input[type=submit]:active{
+    background-color: #976302;
+}
+input[type=submit]:active{
+    border-color: #976302;
+}
+.checked{
+    text-decoration: line-through;
+    color:#ee9b00;
+}
