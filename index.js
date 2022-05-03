@@ -5,7 +5,7 @@ document.addEventListener('submit',(e)=>{
 e.preventDefault();
 const inputText = todoText.value;
 const newLi = document.createElement('li');
-newLi.innerHTML = `<input type="checkbox" name="" id=""> ${inputText}`
+newLi.innerText = inputText;
 todoUl.append(newLi);
 todoText.value='';
 });
